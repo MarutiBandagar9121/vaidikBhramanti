@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #FC4100;
 }
 
 .home-parent {
@@ -52,7 +52,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
-    background-color: white;
+    background-color: #FFC100;
 }
 
 .navbar-logo img {
@@ -99,8 +99,9 @@ body {
     /* border: 2px solid red; */
     align-items: center;
     justify-content: end;
-    background: rgb(4,4,4);
-    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgba(6,6,6,0.8421568456484156) 78%, rgba(255,255,255,1) 100%);  
+    /* background: rgb(4,4,4);
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgba(6,6,6,0.8421568456484156) 78%, rgba(255,255,255,1) 100%);   */
+    background-color: #FC4100;
     color:white;
     transition: 0.3s ease-in-out;
     display: none;
@@ -114,7 +115,7 @@ body {
     font-size: 1.5rem;
 }
 .navbar-mobile .active{
-    color:green;
+    color:black;
 }
 .navbar-mobile a:hover{
     cursor: pointer;
@@ -147,7 +148,7 @@ body {
 }
 
 .slider-container .slide-two {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/one.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/badrinath.jpeg);
 }
 
 .slider-container .slide-three {
@@ -155,11 +156,11 @@ body {
 }
 
 .slider-container .slide-four {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/India.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/gangaAarti.jpg);
 }
 
 .slider-container .slide-five {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/three.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/kedarnath.jpg);
 }
 
 .slide-content h1 {
@@ -186,7 +187,6 @@ body {
     right: 25px;
 }
 
-.element {}
 
 .slider-container .slick-dots li button {
     font-size: 0;
@@ -208,7 +208,7 @@ body {
     /* height:100vh; */
     background-color: white;
     /* border:2px solid red; */
-    background-image: url(/images/chandan-chaurasia-iIhqn8njfoU-unsplash.jpg);
+    background-image: url(/images/Himalaya.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* filter: blur(1px);
@@ -275,8 +275,9 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 1rem;
-    background-color: #121481;
-    color: white;
+    /* background-color: #121481; */
+    background-color: #FFC100;
+    color: black;
 }
 
 .third-one {
@@ -313,10 +314,10 @@ body {
 }
 
 .footer {
-    width: 100vw;
+    /* width: 100vw; */
     /* border: 2px solid red; */
-    background: rgb(15,174,191);
-background: radial-gradient(circle, rgba(15,174,191,1) 0%, rgba(219,219,219,1) 70%); 
+    background: rgb(237,123,13);
+    background: radial-gradient(circle, rgba(237,123,13,1) 0%, rgba(252,218,70,1) 100%); 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
