@@ -4,7 +4,6 @@ $(".slider-container").slick({
     infinite:true,
     speed:500,
     slidestoShow:1,
-    // adaptiveHeight:true,
     autoplay:true,
     drag:true
 });
@@ -38,4 +37,17 @@ function optionSelected(){
         document.querySelector(".navbar-mobile").style.display='none';
 }
 
+// Get the sticky div
+var stickyDiv = document.getElementById("sticky-div");
 
+// Get the offset position of the sticky div
+var stickyOffset = stickyDiv.offsetTop;
+
+// Add the sticky class to the div when scrolling
+window.onscroll = function() {
+  if (window.pageYOffset >= stickyOffset) {
+    stickyDiv.classList.add("sticky");
+  } else {
+    stickyDiv.classList.remove("sticky");
+  }
+};
